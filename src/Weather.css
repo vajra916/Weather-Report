@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+   
+    background-image: url('https://ubuntuhandbook.org/wp-content/uploads/2021/07/M-Maggs-pixabay.jpg');
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    /* overflow: hidden; */
+}
+.api{
+     text-align: center;
+    height: 500px;
+    width: 300px;
+    /* border: 0px solid; */
+    /* margin: auto; */
+    /* background-color: rgb(24, 208, 214);
+     */
+     /* background-image: url("https://i.pinimg.com/1200x/c0/10/bd/c010bdb37411d217a1243261e4c11e5e.jpg"); */
+     background-image: url('https://img.freepik.com/premium-vector/night-with-clouds-weather-app-screen-mobile-interface-design-forecast-weather-background-time-concept-vector-banner_87946-4287.jpg?w=360');
+     background-position: top;
+     background-repeat: no-repeat;
+     background-size:cover;
+     background-clip: content-box;
+     background-position-x: center;
+    border-radius: 15px;
+    align-items: center;
+    box-shadow: 0px 0px 25px rgb(255, 255, 255);
+    /* background-blend-mode:lighten; */
+    opacity: 40;
+    margin-top: 50px;
+}
+.api:hover{
+    background-color:none;
+    border-radius: 25px;
+}
+.weather{
+    color: rgb(252, 252, 252);
+    /* text-decoration-line: underline; */
+    text-shadow: 0px 0px 1px;
+   padding-top: 20px;
+    text-shadow: 2px 1px 2px rgb(4, 88, 234);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+input{
+    border: 1px;
+    border-radius: 5px;
+    width: 200px;
+    padding: 5px;
+}
+::placeholder{
+    font-family: monospace;
+    font-size: small;
+    text-align: center;
+    letter-spacing: 2px;
+}
+button{
+    margin-top: 10px;
+    padding-bottom: 5px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    width: 60px;
+   font-family: monospace;
+    font-size: small;
+    background-color: rgb(14, 96, 189);
+    color: rgb(0, 5, 9);
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding-top: 5px;
+    color: white;
+}
+button:hover{
+    background-color: rgb(29, 140, 150);
+}
+
+.loc{
+    color:rgb(243, 248, 248);
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    
+    /* text-decoration: underline orange; */
+    text-shadow: 1px 1px ;
+    text-shadow: rgb(249, 91, 0) 2px 2px 2px ;
+}
+.weather-font{
+    color:rgb(243, 248, 248);
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    text-shadow: rgb(14, 96, 189) 2px 2px 2px ;
+}
+h1{
+    font-size: xx-large;
+}
